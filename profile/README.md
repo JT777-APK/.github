@@ -48,3 +48,27 @@ Jika ada pertanyaan atau membutuhkan bantuan, Anda dapat menghubungi kami melalu
 ---
 
 Terima kasih telah memilih **JT777**! Selamat bermain dan semoga keberuntungan menyertai Anda!
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore APK build files
+*.apk
+*.ap_
+*.dex
+
+# Ignore build directories
+/build/
+*/bin/
+*/gen/
+.gradle/
+.idea/
+local.properties
+
+# Ignore log and temp files
+*.log
+*.tmp
+*.swp
+*.iml
+
